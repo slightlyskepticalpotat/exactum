@@ -139,3 +139,76 @@ li {list-style: none; }
     padding:10px 10px;
     text-align:center;
 }
+
+.slide1{
+    background-image: url('images/1.jpg');
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    /*background-size: 300px 300px;*/
+}
+.slide2{
+    background-image: url('images/2.jpg');
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 700px 400px;
+}
+.slide3{
+    background-image: url('images/3.jpg');
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    /*background-size: 800px 300px;*/
+}
+.slide4{
+    background-image: url('images/4.png');
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 900px 300px;
+}
+.slide5{
+    background-image: url('images/5.png');
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1000px 300px;
+}
+.carousel-caption h1{
+  font-size: 3.4em;
+  font-family: 'Lato', sans-serif;
+  padding-bottom: .4em;
+  color: black;
+}
+.carousel-caption p{
+  font-size: 2em;
+  color: black;
+  position: relative;
+}
+.carousel-caption h4{
+    font-size: 1.5em;
+    color: black;
+    text-align: center;
+}
+.box{
+    line-height: 17px;
+    font-size: 15px;
+    font-weight: 400;
+    border: 1px solid black;
+    white-space: pre-wrap;
+    border-radius: 5px;
+    background-color: #D3D3D3;
+    margin-bottom: 10px;
+}
+div.transbox{
+  margin: 40px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+}
+
+div.transbox p{
+  margin: 3%;
+  font-weight: bold;
+  color: #000000;
