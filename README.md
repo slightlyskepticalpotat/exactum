@@ -2,7 +2,7 @@
 
 ---
 
-This configurable python script allows you to monitor any webpage for changes. It was created during Hack the North 2020 by AlanL2, Maillew, and I.
+This configurable python script allows you to monitor any webpage for changes. It was created during Hack the North 2020 by AlanL2, Maillew, and I. You can visit our website at https://exactum1.github.io/
 
 Before using this, you need to create a configuration file named `config.yml`. For each site you want to monitor, add an an entry to the file with the following format. The first line is the name of the monitor, the delay between checks is in seconds, and a pop-up dialog will be shown if you set notify to true.
 ```yaml
