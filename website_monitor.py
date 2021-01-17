@@ -33,7 +33,7 @@ def track_website(job, url, delay, notify, email):
             if email:
                 server.sendmail(email_settings["from_address"], email_settings["to_address"],
                                 f"\n{job} is unreachable at {time.strftime('%X %x %Z')}.")
-        elif response.text != last:
+        elif response.text != last and last:
             logging.info(f"{job} changed")
             if notify:
                 messages.put(
