@@ -21,3 +21,5 @@ to_address: toemail@exactum.com
 password: exactummutcaxe
 ```
 If you are using the .py file, install Python 3 and the dependencies in README.md.
+
+You can visit our website at https://exactum1.github.io/ !
