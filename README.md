@@ -10,5 +10,14 @@ monitor-google:
     url: https://google.ca
     delay: 60
     notify: True
+    email: False
+```
+If you set email to true, you will need to specify your settings for a SMTP server in a file named `email.yml`. When a website changes, it will notify you via email. Here is the format:
+```yaml
+server: smtp.gmail.com
+port: 587
+from_address: fromemail@exactum.com
+to_address: toemail@exactum.com
+password: exactummutcaxe
 ```
 If you are using the .py file, install Python 3 and the dependencies in README.md.
