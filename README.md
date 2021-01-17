@@ -9,4 +9,4 @@ job-name:
     delay: 60
     notify: True
 ```
-If you are using the .py file, install Python 3 and the dependencies in README.txt.
+If you are using the .py file, install Python 3 and the dependencies in README.md.
