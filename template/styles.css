@@ -107,6 +107,13 @@ li {list-style: none; }
     padding-left: 20px;
     font-size: 30px;
 }
+.paragraphs{
+    padding: 5px 5px;
+    position:relative;
+    text-align: center;
+    font-size: 14px;
+    margin:20px;
+}
 .button:hover {
   background-color: #FFE5B4;
   color: black;
@@ -130,4 +137,5 @@ li {list-style: none; }
 .content{
     margin:5px;
     padding:10px 10px;
+    text-align:center;
 }
